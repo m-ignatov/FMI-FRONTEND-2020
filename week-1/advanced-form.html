@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+  <title>Advanced Form </title>
+</head>
+
+<body>
+  <form>
+    <fieldset>
+      <legend>User Information</legend>
+      <div>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="uname" placeholder="Username" />
+      </div>
+      <div>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="pass" placeholder="Password" />
+      </div>
+    </fieldset>
+    <br>
+    <fieldset>
+      <legend>Personal Information</legend>
+      <div>
+        <label for="firstName">First name:</label><br>
+        <input type="text" id="firstName" name="firstname" />
+      </div>
+      <div>
+        <label for="lastName">Last name:</label><br>
+        <input type="text" id="lastName" name="lastname" />
+      </div>
+      <div>
+        <input type="radio" id="male" name="gender" value="male" checked="checked" />
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female" />
+        <label for="female">Female</label><br>
+      </div>
+      <div>
+        <label for="favouriteFood">Favourite Food:</label>
+        <select name="favouriteFood" id="favouriteFood">
+          <option value="chocolate">Chocolate</option>
+          <option value="cake">Cake</option>
+          <option value="apple">Apple</option>
+        </select>
+      </div>
+    </fieldset>
+    <br>
+    <div>
+      <input type="submit" value="Register" />
+      <input type="reset" value="Reset" />
+    </div>
+  </form>
+</body>
+
+</html>
