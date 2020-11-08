@@ -1,0 +1,16 @@
+#container1,
+#container2 {
+  box-sizing: border-box;
+  border: 5px solid;
+  height: 95px;
+  padding: 5px;
+}
+
+#container1 {
+  border-color: #5b4000;
+  margin: 5px;
+}
+
+#container2 {
+  border-color: #0e5252;
+}
