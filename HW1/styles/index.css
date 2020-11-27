@@ -1,0 +1,237 @@
+* {
+    font-family: Helvetica, sans-serif;
+    box-sizing: border-box;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    background-image: linear-gradient(-100deg, #A2F2F1 0%, #B19AFE 100%);
+}
+
+header {
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding: 0 3rem;
+    height: 3rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: normal;
+    margin-right: 0.1rem;
+}
+
+#search {
+    width: 15rem;
+    height: 2rem;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    border: 1px solid rgb(237, 239, 252);
+    background-color: rgb(246, 247, 253);
+}
+
+.search-icon {
+    width: .9rem;
+    height: .9rem;
+    right: 4rem;
+    position: absolute;
+}
+
+main {
+    margin: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.profile {
+    background: white;
+    max-width: 18rem;
+    text-align: center;
+    margin-right: 0.5rem;
+}
+
+.profile>h4 {
+    margin-bottom: 1rem;
+}
+
+.profile>img {
+    margin-top: 0.5rem;
+    height: 5.25rem;
+    width: 5.25rem;
+    border-radius: 50%;
+}
+
+.profile-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    height: 3.75rem;
+    background: rgb(246, 247, 253);
+    align-items: center;
+}
+
+.profile-info button {
+    background: rgb(246, 247, 253);
+    border: 1px solid rgb(119, 202, 223);
+    color: rgb(119, 202, 223);
+    border-radius: 1rem;
+    height: 2rem;
+    width: 4.2rem;
+    font-weight: bold;
+}
+
+.profile-info button:hover {
+    cursor: pointer;
+}
+
+.profile-stats {
+    display: flex;
+    padding-right: 4rem;
+}
+
+.profile-stats>div {
+    padding-right: 1rem;
+    font-weight: bold;
+    text-align: left;
+}
+
+.profile-stats-badge div:nth-child(1) {
+    color: #848694;
+    font-size: 0.75rem;
+}
+
+.profile-stats-badge div:nth-child(2) {
+    color: rgb(119, 202, 223);
+    font-size: 1.125rem;
+}
+
+.posts {
+    background: white;
+    max-width: 55rem;
+}
+
+.write-post {
+    display: flex;
+    position: relative;
+    padding: 0.5rem 1.5rem;
+    background: rgb(244, 252, 253);
+    height: 3rem;
+    border-bottom: 1px solid rgb(226, 233, 234);
+}
+
+.write-post>input {
+    width: 100%;
+    height: 2rem;
+    padding: 0.5rem 0.9rem;
+    background: white;
+    border: 1px solid rgb(237, 240, 253);
+    border-radius: 1rem;
+}
+
+.write-post>input:focus {
+    outline: none;
+}
+
+.write-post>input::placeholder {
+    opacity: 1;
+    color: rgb(102, 195, 218);
+}
+
+.write-post>img {
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    margin: 0 1.1rem 0 0.22rem;
+}
+
+#comment-icon {
+    position: absolute;
+    margin: auto;
+    right: 2rem;
+    width: 2rem;
+    height: 1rem;
+    bottom: 0;
+    top: 0;
+}
+
+.post {
+    display: flex;
+    padding: 1rem;
+    min-height: 7rem;
+    position: relative;
+    border-bottom: 1px solid rgb(226, 233, 234);
+}
+
+.post-content {
+    width: 100%;
+}
+
+.avatar {
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+    margin-right: 0.8rem;
+    margin-top: 0.2rem;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header>div {
+    display: flex;
+}
+
+.author {
+    font-weight: 800;
+    margin-right: .5rem;
+}
+
+.timestamp {
+    color: #808080;
+}
+
+.message {
+    padding-bottom: 1rem;
+    font-size: 0.875rem;
+}
+
+.reactions {
+    display: flex;
+}
+
+.reactions-counter {
+    padding-right: 3.2rem;
+}
+
+.reactions-icon {
+    margin-right: .2rem;
+    width: 1rem;
+    height: 1rem;
+}
+
+.close-icon {
+    width: .8rem;
+    height: .8rem;
+}
+
+@media screen and (max-width: 890px) {
+    main {
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+        padding: .5rem 0;
+    }
+    .profile {
+        max-width: 100%;
+        margin-right: 0;
+    }
+}

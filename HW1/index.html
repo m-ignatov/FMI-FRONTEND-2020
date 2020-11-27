@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <link rel="stylesheet" href="./styles/index.css">
+</head>
+
+<body>
+    <header>
+        <h1>Flutter</h1>
+        <input id="search" placeholder="Search">
+        <img src="./icons/search.svg" alt="Search" class="search-icon">
+    </header>
+    <main>
+        <div class="profile">
+            <img src="./icons/profile.png" alt="Profile">
+            <h4>Martin Hristov</h4>
+            <section class="profile-info">
+                <div class="profile-stats">
+                    <div class="profile-stats-badge">
+                        <div>Posts</div>
+                        <div>1</div>
+                    </div>
+                    <div class="profile-stats-badge">
+                        <div>Reactions</div>
+                        <div>7</div>
+                    </div>
+                </div>
+                <a href="./login.html">
+                    <button type="button" value="Log Out">Log Out</button>
+                </a>
+            </section>
+        </div>
+        <div class="posts">
+            <div class="write-post">
+                <img src="./icons/profile.png" alt="Profile">
+                <input type="text" placeholder="Say something">
+                <img id="comment-icon" src="icons/comment.svg" alt="Comment">
+            </div>
+            <div class="post">
+                <img class="avatar" src="./icons/profile.png" alt="Profile">
+                <div class="post-content">
+                    <div class="header">
+                        <div>
+                            <div class="author">Ivan Ivanov</div>
+                            <div class="timestamp">&bull; 0 seconds ago</div>
+                        </div>
+                        <img class="close-icon" src="./icons/close.svg" alt="Close">
+                    </div>
+                    <div class="message">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </div>
+                    <div class="reactions">
+                        <img class="reactions-icon" src="./icons/like.svg" alt="Like">
+                        <span class="reactions-counter">5</span>
+                        <img class="reactions-icon" src="./icons/dislike.svg" alt="Dislike">
+                        <span class="reactions-counter">3</span>
+                    </div>
+                </div>
+            </div>
+            <div class="post">
+                <img class="avatar" src="./icons/profile.png" alt="Profile">
+                <div class="post-content">
+                    <div class="header">
+                        <div>
+                            <div class="author">Martin</div>
+                            <div class="timestamp">&bull; Last month</div>
+                        </div>
+                        <img class="close-icon" src="./icons/close.svg" alt="Close">
+                    </div>
+                    <div class="message">Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </div>
+                    <div class="reactions">
+                        <img class="reactions-icon" src="./icons/like.svg" alt="Like">
+                        <span class="reactions-counter">3</span>
+                        <img class="reactions-icon" src="./icons/dislike.svg" alt="Dislike">
+                        <span class="reactions-counter">0</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
